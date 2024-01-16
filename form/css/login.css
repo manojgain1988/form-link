@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 650px;
+    width: 100%;
+    background-image: url(../image/beauty.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header{
+height: 10%;
+display: flex;
+align-items: center;
+overflow: hidden;
+position: relative;
+}
+.logo{
+width: 120px;
+height: 80px;
+cursor: pointer;
+padding-top: 23px;
+}
+.navbar{
+text-align: center;
+flex: 25;
+padding-top: 23px;
+}
+.navbar a{
+padding: 10px;
+text-decoration: none;
+font-size: 21px;
+font-weight:700;
+color: #ac0000;  
+}
+.navbar a:hover{
+text-decoration: underline;
+}
+
+.wrapper{
+    margin-top: 50px;
+    height:500px;
+    width: 400px;
+    background-color:#36912c;
+    border-radius: 18px; 
+    
+}
+form{
+    margin-left: 60px;
+    padding-top: 20px;
+}
+form h1{
+   font-size: 35px;
+   color: #ffffff;
+   margin-bottom: 20px;
+   padding-top: 5px;
+   margin-left: 40px;
+}
+form input{
+   font-size:20px;
+   border-radius: 12px;
+   padding: 5px;
+   border: none;
+}
+.remember_forgot a{
+    margin-left: 40px;
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+.wrapper img{
+    width: 80px;
+    height: 100px;
+    margin-left: 80px;
+}
+.wrapper .btn {
+    margin-top: 30px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 4px 90px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.wrapper .btn:hover{
+    background: #f80101;
+    color: #fff;
+
+}
+.wrapper p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.wrapper a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.wrapper ::placeholder{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* Register part start */
+
+.wrapper_regis{
+    margin-top: 20px;
+    height:550px;
+    width: 450px;
+    background-color:#f89d15;
+    border-radius: 18px; 
+}
+.wrapper_regis img{
+    height:100px;
+    width: 80px;
+    margin-left: 120px; 
+    margin-bottom: 0;  
+}
+.wrapper_regis h1{
+    margin-left: 30px; 
+    margin-top:0; 
+    margin-bottom: 20px; 
+}
+.wrapper_regis input{
+    margin-left: 40px;
+   
+}
+.wrapper_regis ::placeholder{
+   font-size: 15px;
+   padding: 10px;
+   
+}
+.wrapper_regis .btn{
+    margin-left: 100px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.wrapper_regis p{
+ color: #050505;
+ font-size: 16px;
+ font-weight: 800;
+}
+.wrapper_regis p a{
+ color: #050505;
+ font-size: 16px;
+ font-weight: 800;
+}
+
+/* Register part start */
+
+
+
+/* reset part start */
+
+.warpper_reset{
+    width: 380px;
+    height: 450px;
+    background-color: rgb(11, 252, 220);
+    margin-top: 80px;
+    border-radius: 15px;
+}
+.warpper_reset h1 {
+    font-size: 35px;
+    color: #070707;
+    margin-bottom: 15px;
+    padding-top: 45px;
+    margin-left: 24px;
+    text-decoration: underline;
+}
+
+h5 {
+    font-size: 14px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+.warpper_reset .rbtn {
+    background-color: #fff;
+        border: 1px solid white;
+        font-size: 14px;
+        border-radius: 11px;
+        padding: 9px 9px;
+        margin-bottom: 35px;
+
+    }
+
+
+    .warpper_reset ::placeholder{
+        font-size: 14px;
+        padding: 10px;
+
+    }
+    .warpper_reset p{
+        font-size: 13px;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+    .warpper_reset h4{
+        font-size: 16px;
+        font-weight: 600;
+       margin-left: 30px;
+    }
+    .warpper_reset a{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-left: 50px;
+        color: #070707;
+    }
